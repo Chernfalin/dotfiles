@@ -1,0 +1,4 @@
+application/pdf ; zathura %s
+image/*         ; sxiv %s
+text/html       ; w3m -I %{charset} -T text/html     ; copiousoutput ;
+text/enriched   ; w3m -I %{charset} -T text/enriched ; copiousoutput ;

@@ -1,0 +1,21 @@
+# linux/.xprofile
+#
+# Environment variables for X Desktop
+#
+# Source order:
+# (startx -> .xinitrc) or DM (including GDM)
+#   -> .xprofile -> [env]
+#     -> /usr/share/xsessions .desktop file (runs before WM/DE, e.g. openbox)
+#
+
+# Use GTK widgets in place of QT
+# export QT_STYLE_OVERRIDE=gtk #adwaita
+# export QT_QPA_PLATFORMTHEME=gtk2
+
+export QT_QPA_PLATFORMTHEME=qt5ct
+export WINEARCH=win32
+
+# for fcitx
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
