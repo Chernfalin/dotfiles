@@ -1,7 +1,7 @@
 # dotfiles
 Archlinux+Awesomewm+tilda+oh-my-zsh+conky+terminaltor+spacevim+nvim etc.
 
-screenshots:
+screenshot:
 
 ![shell](./screenshot/DeepinScreenshot_20171116174459.png)
 
